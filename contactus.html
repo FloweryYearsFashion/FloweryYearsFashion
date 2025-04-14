@@ -111,38 +111,22 @@
                 <!-- <h5>Map of our Location</h5> -->
                  
                <!-- [START maps_web_components_markers_div] -->
-    <gmp-map
-    center="34.04516,-84.17828"
-    zoom="12"
-    map-id="DEMO_MAP_ID"
-    style="height: 400px"
+                <gmp-map
+                center="34.04516,-84.17828"
+                zoom="12"
+                map-id="DEMO_MAP_ID"
+                style="height: 400px"
   >
-    <gmp-advanced-marker
-      position="34.04516,-84.17828"
-      title="Mountain View, CA"
-    ></gmp-advanced-marker>
-    <gmp-advanced-marker
-      position="34.04516,-84.17828"
-      title="Seattle, WA"
-    ></gmp-advanced-marker>
-  </gmp-map>
-  <!-- [END maps_web_components_markers_div] -->
-
-
-  <!-- 
-    The `defer` attribute causes the script to execute after the full HTML
-    document has been parsed. For non-blocking uses, avoiding race conditions,
-    and consistent behavior across browsers, consider loading using Promises. See
-    https://developers.google.com/maps/documentation/javascript/load-maps-js-api
-    for more information.
-    -->
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps,marker&v=beta"
-    defer
-  ></script>
-</body>
-</html>
-<!-- [END maps_web_components_markers] -->
+                <gmp-advanced-marker
+                position="34.04516,-84.17828"
+                title="Mountain View, CA"
+                ></gmp-advanced-marker>
+                <gmp-advanced-marker
+                position="34.04516,-84.17828"
+                title="Seattle, WA"
+                ></gmp-advanced-marker>
+            </gmp-map>
+            <!-- [END maps_web_components_markers_div] -->
 
 
             </div>
@@ -191,10 +175,26 @@
             </div>
         </div>
     </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+    <!-- 
+        The `defer` attribute causes the script to execute after the full HTML
+        document has been parsed. For non-blocking uses, avoiding race conditions,
+        and consistent behavior across browsers, consider loading using Promises. See
+        https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+        for more information.
+        -->
+    
+    <!-- [END maps_web_components_markers] -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=maps,marker&v=beta"
+        defer
+>   </script>
+
 </body>
 
 </html>
