@@ -10,6 +10,12 @@ body {
   margin: 0px auto;
 }
 
+.wrapper2 {
+  width: 600px;
+  margin: 0px auto;
+}
+
+
 entry {
   width: 220px;
   float: left
@@ -18,9 +24,27 @@ entry {
   float: left;
 }
 
+entry2 {
+  width: 150px;
+  float: left
+  margin: 10px;
+  height: 350px;
+  float: left;
+}
+
 figure {
   display: block;
-  width: 202px;
+  width: 220px;
+  height: 220x;
+  background-color: lightblue;
+  margin: 0px;
+  padding: 9px;
+  float: left;
+}
+
+figure2 {
+  display: block;
+  width: 150px;
   height: 220x;
   background-color: lightblue;
   margin: 0px;
