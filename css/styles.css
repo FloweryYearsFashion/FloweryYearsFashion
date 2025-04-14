@@ -1,4 +1,4 @@
-body { 
+body {
   background-color: lightgray;
   text-align: center;
   color: blue;
@@ -24,14 +24,6 @@ entry {
   float: left;
 }
 
-entry2 {
-  width: auto;
-  float: left;
-  margin: 10px;
-  height: auto;
-  float: left;
-}
-
 figure {
   display: block;
   width: auto;
@@ -41,7 +33,6 @@ figure {
   padding: 9px;
   float: left;
 }
-
 
 figure img:hover {
   border: 1px solid black;
