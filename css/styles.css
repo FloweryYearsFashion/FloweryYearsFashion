@@ -34,6 +34,16 @@ figure {
   float: left;
 }
 
+figure2 {
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  margin: 0px;
+  padding: 9px;
+  float: left;
+}
+
 figure img:hover {
   border: 1px solid black;
 }
@@ -42,6 +52,13 @@ figure img {
   float: left;
   width: 200px;
   height: 280px;
+  border: 1px solid blue;
+}
+
+figure2 img {
+  float: left;
+  width: 200px;
+  height: 230px;
   border: 1px solid blue;
 }
 
