@@ -6,15 +6,14 @@ body {
 }
 
 .wrapper {
-  width: 1000px;
+  width: auto;
   margin: 0px auto;
 }
 
 .wrapper2 {
-  width: 600px;
+  width: auto;
   margin: 0px auto;
 }
-
 
 entry {
   width: auto;
