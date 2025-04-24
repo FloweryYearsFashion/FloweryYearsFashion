@@ -59,6 +59,7 @@
               <li><a href="topxl.html">Tops 上衣</a></li>
               <li><a href="pantxl.html">Pants 裤子</a></li>
               <li><a href="jackets.html">Jackets 外套</a></li>
+              <li><a href="setxl.html">Sets 套装</a></li>
               <li role="separator" class="divider"></li>
               <li class="dropdown-header">Specials 优惠促销</li>
               <li><a href="topxl.html">t-shirts t恤 Buy 4 Get 1 Free</a></li>
@@ -106,11 +107,13 @@
   <p>Type a value in the centimeters field to convert the value to inches:</p>
 
   <p>
-    <label>centimeters</label>
+    <label>centimeters:</label>
     <input id="inputCm" type="number" placeholder="cm" oninput="lengthConverter(this.value)"
       onchange="lengthConverter(this.value)">
+      <label>Inches:</label>
+      <span id="cmtoinch"></span>
   </p>
-  <p>Inches: <span id="cmtoinch"></span></p>
+  <!-- <p>Inches: <span id="cmtoinch"></span></p> -->
 
   <script>
     function roundToTwo(num) {
@@ -122,11 +125,11 @@
     }
   </script>
 
-  <a target="_blank" href="img/models/qipaosize.png">
-    <img src="img/models/qipaosize.png" alt="qipaosize">
+  <a target="_blank" href="img/sizechart/qipaosize.jpg">
+    <img src="img/sizechart/qipaosize.jpg" alt="qipaosize">
   </a>
-  <a target="_blank" href="img/qipao/qipaosizechart.png">
-    <img src="img/qipao/qipaosizechart.png" alt="qipaosizechart">
+  <a target="_blank" href="img/sizechart/qipaosizechart.jpg">
+    <img src="img/sizechart/qipaosizechart.jpg" alt="qipaosizechart">
   </a>
 
   <div class="center">
@@ -134,8 +137,8 @@
     <p><a class="btn btn-primary btn-xs" href="pantxl.html">Pants 裤子 &raquo;</a></p>
   </div>
 
-  <a target="_blank" href="img/pants/pantsizechart.jpg">
-    <img src="img/pants/pantsizechart.jpg" alt="pantsizechart">
+  <a target="_blank" href="img/sizechart/pantsizechart.jpg">
+    <img src="img/sizechart/pantsizechart.jpg" alt="pantsizechart">
   </a>
 
   <footer class="row-footer">
