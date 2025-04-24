@@ -12,10 +12,10 @@ body {
 
 entry {
   width: auto;
-  float: left;
+  float: center;
   margin: 10px;
   height: auto;
-  float: left;
+  float: center;
 }
 
 figure {
@@ -43,16 +43,23 @@ figure img:hover {
 }
 
 figure img {
-  float: left;
+  float: center;
   width: 200px;
   height: 280px;
   border: 1px solid blue;
 }
 
 figure2 img {
-  float: left;
+  float: center;
   width: 200px;
   height: 230px;
+  border: 1px solid blue;
+}
+
+figureauto img {
+  float: center;
+  width: auto;
+  height: auto;
   border: 1px solid blue;
 }
 
